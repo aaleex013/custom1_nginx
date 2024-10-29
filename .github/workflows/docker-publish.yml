@@ -20,10 +20,10 @@ jobs:
 
       - name: Build the Docker image
         run: |
-          # Reemplaza "yourusername" y "yourimagename" con tu información real
+          
           docker build -t aaleex/mi-imagen:${{ github.ref }} .
 
       - name: Push the Docker image
         run: |
-          # Reemplaza "yourusername" y "yourimagename" con tu información real
+          
           docker push aaleex/mi-imagen:${{ github.ref }}
